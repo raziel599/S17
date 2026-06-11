@@ -1,0 +1,33 @@
+Réponses ouvertes - Atelier S17 (structures de données objet)
+Prénom NOM :
+
+================================================================
+Exercice 1 - Diagnostic du set
+================================================================
+- Combien de livres ont été ajoutés ? Combien l'ensemble en garde-t-il ?
+  Lequel a disparu ?
+- Pourquoi un set considère-t-il deux livres aux titres différents comme
+  un seul et même livre ?
+- Quelles méthodes de Livre sont en jeu ? Bug ou décision de conception ?
+
+[votre réponse ici]
+
+
+================================================================
+Exercice 3 - reverse vs négation
+================================================================
+- Pourquoi reverse=True ne convient-il pas ici ?
+- Comment la négation du critère « année » résout-elle le problème ?
+
+[votre réponse ici]
+
+
+================================================================
+Exercice 5 - Dédoublonnage
+================================================================
+- Pourquoi deux Livre de même ISBN sont-ils dédoublonnés alors que leurs
+  titres diffèrent ?
+- Quelles méthodes de Livre rendent cela possible ?
+- Que se passerait-il si Livre ne les définissait pas ?
+
+[votre réponse ici]
