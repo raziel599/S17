@@ -31,7 +31,11 @@ Exercice 3 - reverse vs négation
 - Pourquoi reverse=True ne convient-il pas ici ?
 - Comment la négation du critère « année » résout-elle le problème ?
 
-[votre réponse ici]
+reverse=True va tout inversé et pas seulement la date
+
+Parce que sorted() ne trie que par odre croissant, en mettant un "-"
+on renverse toutes les dates ce qui fait que le tris croissant 
+devient décroissant
 
 
 ================================================================
