@@ -22,6 +22,8 @@ Livre("La Ferme des animaux", "Orwell", "9780141036137", 112, 1945),
 Livre("Le Meilleur des mondes", "Huxley", "9780060850524", 311, 1932),
 Livre("Fahrenheit 451", "Bradbury", "9781451673319", 256, 1953),
 ]
+DOUBLON = Livre("1984 (réédition)", "Orwell", "9780451524935", 328, 1949)
+AVEC_DOUBLON = CATALOGUE + [DOUBLON]
 
 # ──────────────────────────────────────────────────────────────────────
 # 1. Tris
@@ -129,7 +131,7 @@ def compter_distincts(livres):
     Returns:
         int: Nombre de livres distincts.
     """
-    raise NotImplementedError("À compléter (voir énoncé TP, exercice 5).")
+    return len(livres)
 
 
 def dedoublonner(livres):
