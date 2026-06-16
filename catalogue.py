@@ -36,7 +36,7 @@ def trier_par_titre(livres):
     Returns:
         list: Une nouvelle liste triée (l'originale reste intacte).
     """
-    raise NotImplementedError("À compléter (voir énoncé TP, exercice 2).")
+    return sorted(livres, key=lambda livre: livre.titre)
 
 
 def trier_par_auteur_puis_titre(livres):
@@ -48,7 +48,7 @@ def trier_par_auteur_puis_titre(livres):
     Returns:
         list: Une nouvelle liste triée.
     """
-    raise NotImplementedError("À compléter (voir énoncé TP, exercice 2).")
+    return sorted(livres, key=lambda livre: (livre.auteur, livre.titre))
 
 
 def trier_par_annee(livres, recents_dabord=False):
@@ -61,7 +61,11 @@ def trier_par_annee(livres, recents_dabord=False):
     Returns:
         list: Une nouvelle liste triée.
     """
-    raise NotImplementedError("À compléter (voir énoncé TP, exercice 2).")
+    return sorted(
+        livres,
+        key=lambda livre: livre.annee,
+        reverse=recents_dabord
+    )
 
 
 def trier_par_auteur_puis_annee_recente(livres):
@@ -73,7 +77,10 @@ def trier_par_auteur_puis_annee_recente(livres):
     Returns:
         list: Une nouvelle liste triée.
     """
-    raise NotImplementedError("À compléter (voir énoncé TP, exercice 3).")
+    return sorted(
+        livres,
+        key=lambda livre: (livre.auteur, -livre.annee),
+    )
 
 
 # ──────────────────────────────────────────────────────────────────────
