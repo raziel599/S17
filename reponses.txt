@@ -1,5 +1,5 @@
 Réponses ouvertes - Atelier S17 (structures de données objet)
-Prénom NOM :
+Prénom NOM : Cédric Van waleghem
 
 ================================================================
 Exercice 1 - Diagnostic du set
@@ -10,7 +10,19 @@ Exercice 1 - Diagnostic du set
   un seul et même livre ?
 - Quelles méthodes de Livre sont en jeu ? Bug ou décision de conception ?
 
-[votre réponse ici]
+Livres ajoutés au catalogue : 4
+Livres distincts (set)      : 3
+Titres conservés :
+  - 1984
+  - Fahrenheit 451
+  - Le Meilleur des mondes
+
+  Le livre réédité à disparu
+
+  Le set considère les livres identiques car il les compare par rapport
+  a leur ISBN
+
+  Ce sont les méthodes __eq__ et __hash__ mais n'ont pas de bugs
 
 
 ================================================================

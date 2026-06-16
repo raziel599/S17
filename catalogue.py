@@ -15,7 +15,13 @@ Programmation Orientée Objet - EICPN 2025-2026.
 """
 
 from collections import defaultdict  # noqa: F401 (utile selon votre choix)
-
+from livre_s17 import Livre
+CATALOGUE = [
+Livre("1984", "Orwell", "9780451524935", 328, 1949),
+Livre("La Ferme des animaux", "Orwell", "9780141036137", 112, 1945),
+Livre("Le Meilleur des mondes", "Huxley", "9780060850524", 311, 1932),
+Livre("Fahrenheit 451", "Bradbury", "9781451673319", 256, 1953),
+]
 
 # ──────────────────────────────────────────────────────────────────────
 # 1. Tris
